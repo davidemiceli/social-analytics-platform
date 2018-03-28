@@ -57,3 +57,11 @@ typings/
 # dotenv environment variables file
 .env
 
+# Specific of packages
+package-lock.json
+backend/package-lock.json
+
+# Specific of the App
+config.json
+backend/config/config.js
+frontend/config.js
