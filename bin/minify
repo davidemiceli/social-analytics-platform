@@ -1,0 +1,5 @@
+#!/bin/bash
+# Bash script to build bundle frontend app
+
+echo "Webpack compiling..."
+npm run build-dev

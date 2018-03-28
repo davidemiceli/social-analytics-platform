@@ -1,0 +1,146 @@
+/* For Vue.js to hide brackets on startup of page */
+[v-cloak], .v-cloak {
+    display: none !important;
+}
+html, body {
+  background-color: #FFF;
+}
+html, body, textarea, input, select {
+  font-family: "Ubuntu Mono";
+}
+.m-10 {
+  margin: 10px;
+}
+.m-lr-10 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.m-l-5 {
+  margin-left: 5px;
+}
+.m-r-5 {
+  margin-right: 5px;
+}
+.m-t-10 {
+  margin-top: 10px;
+}
+.m-b-10 {
+  margin-bottom: 10px;
+}
+.pre-code {
+  border: 0;
+  min-height: 300px;
+}
+.navbar-inverse {
+  background-color: #077CBC;
+  border-color: transparent;
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+  color: #fff;
+  background-color: #286090;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  /* color: #bde0ff; */
+  background-color: #286090;
+}
+.navbar-inverse .navbar-brand {
+  border-color: transparent;
+  font-size: 14px;
+  color: #fff;
+}
+.dropdown-menu>li>a {
+  color: #286090;
+}
+.dropdown-menu>li>a:hover {
+    color: #5c93c3;
+}
+.form-control {
+  border-radius: 0px;
+}
+a {
+  color: #bfbfbf;
+}
+a:focus, a:hover {
+  color: rgb(115, 115, 115);
+  text-decoration: none;
+}
+.btn {
+  letter-spacing: 0.1em;
+  padding: 0.75em 2em;
+  border-radius: 2em;
+  display: inline-block;
+  transition: all 0.15s ease;
+  box-sizing: border-box;
+  border: 1px solid #f6f6f6;
+}
+.btn-primary {
+  border-color: transparent !important;
+}
+.btn-primary:hover {
+  border-color: transparent !important;
+  transition: background-color .2s;
+}
+textarea {
+  resize: none;
+}
+.headmargin {
+  padding-top: 70px;
+}
+.progress {
+  height: 10px;
+}
+.gray-color {
+  color: rgb(113, 113, 113);
+}
+.light-gray-color {
+  color: rgb(238, 238, 238);
+}
+.menu-on-sidebar {
+  margin: 0 !important;
+  padding: 10px;
+  position: fixed;
+  background: #fff;
+  height: calc(100% - 50px);
+  width: 500px;
+  top: 50px;
+  left: 0px;
+  overflow-y: auto;
+  transition: all;
+  -webkit-transition-duration: .0s;
+  transition-duration: .0s;
+  z-index: 10;
+  box-shadow: 0 0 3px rgba(14,18,21,.38);
+}
+.section-menu {
+  position: fixed;
+  background-color: #fff;
+  width: calc(100% - 70px);
+  transition: all;
+  -webkit-transition-duration: .0s;
+  transition-duration: .0s;
+  z-index: 2000;
+}
+.dashboard-on-loading {
+  position: fixed;
+  background: rgba(255,255,255,0.5);
+  height: 100%;
+  min-width: 100%;
+  /* top: 70px; */
+  transition: all;
+  -webkit-transition-duration: .0s;
+  transition-duration: .0s;
+  z-index: 5000;
+  overflow-y: hidden;
+  box-shadow: 0 0 3px rgba(14,18,21,.38);
+}
+.numbers-chart {
+  font-family: "Roboto";
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #5E5E5E;
+  background-color: #f3f3f3;
+}

@@ -1,0 +1,5 @@
+#!/bin/bash
+# Bash script to run server
+
+cd backend/
+npm start

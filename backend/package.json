@@ -1,0 +1,45 @@
+{
+  "name": "social-analytics-platform",
+  "version": "0.0.1",
+  "description": "Open Source Web Platform for Social Media Analytics",
+  "main": "app.js",
+  "author": "davidemiceli",
+  "license": "MIT",
+  "maintainers": [
+    "davidemiceli"
+  ],
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "boom": "^7.2.0",
+    "hapi": "^17.2.3",
+    "inert": "^5.1.0",
+    "jsonwebtoken": "^8.2.0",
+    "moment": "^2.20.1"
+  },
+  "engines": {
+    "node": ">=8.0"
+  },
+  "engineStrict": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidemiceli/social-analytics-platform"
+  },
+  "keywords": [
+    "socialmedia",
+    "social-media-analytics",
+    "social-media-analysis",
+    "marketing",
+    "data-analysis",
+    "bigdata",
+    "artificial-intelligence",
+    "machinelearning",
+    "datascience"
+  ],
+  "bugs": {
+    "url": "https://github.com/davidemiceli/social-analytics-platform/issues"
+  },
+  "homepage": "https://github.com/davidemiceli/social-analytics-platform#readme"
+}

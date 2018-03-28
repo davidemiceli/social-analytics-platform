@@ -1,0 +1,7 @@
+{
+  "base_paths": {
+    "api": "/api",
+    "dashboard": "/dashboard"
+  },
+  "jwt_secret_key": "..."
+}

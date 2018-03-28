@@ -1,0 +1,24 @@
+{
+  "name": "social-analytics-platform",
+  "description": "Open Source Web Platform for Social Media Analytics",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-iconic-font": "^2.2.0",
+    "font-awesome": "^4.7.0",
+    "bootstrap": "^3.3.7",
+    "accounting": "^0.3.2",
+    "highstock": "highstock-release#^5.0.12",
+    "minivents": "^2.1.0",
+    "ace-builds": "^1.2.8",
+    "toastr": "^2.1.3"
+  }
+}

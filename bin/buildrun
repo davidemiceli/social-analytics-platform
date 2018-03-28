@@ -1,0 +1,5 @@
+#!/bin/bash
+# Bash script to build frontend and run server
+
+./bin/minify
+./bin/run
